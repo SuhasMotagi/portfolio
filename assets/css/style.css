@@ -283,27 +283,6 @@ nav {
 	}
 }
 
-.scroll-btn {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	translate: -50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 150px;
-	height: 50px;
-	gap: 5px;
-	text-decoration: none;
-	color: var(--text-color-second);
-	background: var(--color-white);
-	border-radius: 30px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
-}
-
-.scroll-btn i {
-	font-size: 20px;
-}
 
 /* ----- MAIN BOX ----- */
 .section {
@@ -723,4 +702,39 @@ footer {
 	.input-field {
 		width: 100%;
 	}
+}
+/* ----- SCROLL BUTTON ----- */
+.scroll-icon-box {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    gap: 5px;
+    text-decoration: none;
+    color: var(--text-color-second);
+    background: var(--color-white);
+    border-radius: 30px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.scroll-btn i {
+    font-size: 20px;
+}
+
+/* Hide scroll button on mobile */
+@media only screen and (max-width: 900px) {
+    .scroll-icon-box {
+        display: none;
+    }
 }

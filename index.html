@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="Portfolio of Suhas Motagi - Programmer Analyst with Full Stack Development expertise">
+    
     <!-- --------- UNICONS ---------- -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-
+    
     <!-- --------- CSS ---------- -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    
     <!-- --------- FAVICON ---------- -->
     <link rel="shortcut icon" href="assets/images/title_image.jpg" type="image/x-icon">
-
-    <title>Portfolio | Suhas Motagi</title>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "1cYmgc5v7Z_HVwBit",
-      });
-   })();
-</script>
+    
+    <title>Suhas Motagi | Programmer Analyst </title>
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "1cYmgc5v7Z_HVwBit",
+            });
+        })();
+    </script>
 </head>
 
 <body>
@@ -32,17 +33,21 @@
         <!-- --------------- HEADER --------------- -->
         <nav id="header">
             <div class="nav-logo">
-                <p class="nav-name">Suhas</p>
+                <p class="nav-name">Suhas Motagi</p>
                 <span>.</span>
             </div>
             <div class="nav-menu" id="myNavMenu">
                 <ul class="nav_menu_list">
                     <li class="nav_list">
-                        <a href="#home" class="nav-link active-link">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
                         <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#skills" class="nav-link">Skills</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
@@ -56,16 +61,14 @@
                 </ul>
             </div>
             <div class="nav-button">
-                <a href="assets\js\Suhas_motagi_CV.pdf">
+                <a href="assets\js\Suhas_M.pdf" download="Suhas_M.pdf">
                     <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
                 </a>
-
             </div>
             <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="myMenuFunction()"></i>
             </div>
         </nav>
-
 
         <!-- -------------- MAIN ---------------- -->
         <main class="wrapper">
@@ -73,62 +76,44 @@
             <section class="featured-box" id="home">
                 <div class="featured-text">
                     <div class="featured-text-card">
-                        <span>Suhas Motagi</span>
+                        <!-- <span>Suhas Motagixzcdfghj</span> -->
                     </div>
                     <div class="featured-name">
                         <p>I'm <span class="typedText"></span></p>
                     </div>
                     <div class="featured-text-info" style="text-align: justify;">
-                        <p>A dedicated Software Developer with a Master’s in Computer Applications, 
-                            I specialize in backend development, API design, and database management. 
-                            Proficient in Python frameworks like FastAPI and Flask,
-                            I build scalable and efficient RESTful APIs. 
-                            With expertise in PostgreSQL, PL/SQL, and SQL, 
-                            I ensure optimized data handling and performance.
-                        </p>
-                        <p>
-                            I have hands-on experience with Postman for API testing, 
-                            software architecture, and cloud integration, 
-                            making me adept at full-cycle software development.
-                            Passionate about problem-solving and continuous learning, 
-                            I thrive in collaborative team environments and contribute effectively to innovative projects.
-                        </p>
+                        <p>Programmer Analyst with 6 months of professional experience in full-stack development, database design, and software architecture. 
+                            Master's in Computer Applications graduate with expertise in building scalable web applications and RESTful APIs.</p>
+                        <p>Passionate about solving complex problems through clean, efficient code and optimized database solutions. 
+                            Experienced in the complete software development lifecycle from requirements gathering to deployment.</p>
                     </div>
                     <div class="featured-text-btn">
-                        <button class="btn blue-btn">Hire Me</button>
-                        <a href="assets\js\Suhas_motagi_CV.pdf">
+                        <a href="#contact">
+                            <button class="btn blue-btn">Hire Me</button>
+                        </a>
+                        <a href="assets\js\Suhas_M.pdf" download="Suhas_M.pdf">
                             <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
                         </a>
-
                     </div>
                     <div class="social_icons">
-                        <a href="https://www.instagram.com/_.suhassss?igsh=b3g2bXVocGVwcHV5" target="_blank"
-                            rel="noopener noreferrer">
-                            <div class="icon"><i class="uil uil-instagram"></i></div>
-                        </a>
-                        <a href="https://www.linkedin.com/in/suhas-motagi-850783228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
-                            rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/suhas-motagi-850783228" target="_blank" rel="noopener noreferrer">
                             <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
                         </a>
-
                         <a href="https://github.com/SuhasMotagi" target="_blank" rel="noopener noreferrer">
                             <div class="icon"><i class="uil uil-github-alt"></i></div>
+                        </a>
+                        <a href="https://www.instagram.com/_.suhassss" target="_blank" rel="noopener noreferrer">
+                            <div class="icon"><i class="uil uil-instagram"></i></div>
                         </a>
                     </div>
                 </div>
                 <div class="featured-image">
                     <div class="image">
-                        <img src="assets/images/avatar.jpg" alt="avatar">
+                        <img src="assets/images/avatar.jpg" alt="Suhas Motagi Profile Photo">
                     </div>
                 </div>
-                <div class="scroll-icon-box">
-                    <a href="#about" class="scroll-btn">
-                        <i class="uil uil-mouse-alt"></i>
-                        <p>Scroll Down</p>
-                    </a>
-                </div>
-
             </section>
+
             <!-- -------------- ABOUT BOX ---------------- -->
             <section class="section" id="about">
                 <div class="top-header">
@@ -137,123 +122,198 @@
                 <div class="row">
                     <div class="col">
                         <div class="about-info">
-                            <h3>My introduction</h3>
-                            <p style="text-align: justify; margin-bottom: 1rem;">Hello!👋
-                                I'm Suhas Motagi, a passionate newcomer to the world of IT.
-                                I seek a stimulating position within a respected organization where
-                                I can apply my technical, database, and management abilities to
-                                drive organizational growth while also advancing my understanding of
-                                emerging IT trends
-
-
+                            <h3>Professional Summary</h3>
+                            <p style="text-align: justify; margin-bottom: 1rem;">
+                                As a recent Master's graduate in Computer Applications with 6 months of professional experience as a Programmer Analyst, 
+                                I bring a strong foundation in full-stack development and database design. My technical expertise spans Python frameworks 
+                                (FastAPI, Flask), JavaScript/TypeScript, React, and relational databases (PostgreSQL, PL/SQL).
+                            </p>
+                            <p style="text-align: justify; margin-bottom: 1rem;">
+                                In my current role, I've contributed to multiple projects involving API development, database optimization, 
+                                and end-to-end feature implementation. I thrive in collaborative environments where I can apply my problem-solving 
+                                skills to build efficient, scalable solutions.
                             </p>
                             <div class="about-btn">
-                                <a href="assets\js\Suhas_motagi_CV.pdf">
+                                <a href="assets\js\Suhas_M.pdf" download="Suhas_M.pdf">
                                     <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
                                 </a>
                             </div>
                         </div> 
                     </div>
                     <div class="col">
-                        <div class="skills-box">
-                            <div class="skills-header">
-                                <h3>Frontend</h3>
+                        <div class="about-info">
+                            <h3>Education</h3>
+                            <div class="education-item">
+                                <h4>Master of Computer Applications (MCA)</h4>
+                                <p>CGPA: 8.13</p>
                             </div>
-                            <div class="skills-list">
-                                <span>JavaScript</span>
-                                <span>React</span>
-                                <span>Typescript</span>
-                                <span>NextJS</span>
-                                <span>HTML</span>
-                               
+                            <div class="education-item">
+                                <h4>Bachelor of Computer Applications (BCA)</h4>
+                                <p>Percentage: 74.72%</p>
                             </div>
-                        </div>
-                        <div class="skills-box">
-                            <div class="skills-header">
-                                <h3>Backend</h3>
-                            </div>
-                            <div class="skills-list">
-                                <span>Python(Flask,FastApi)</span>
-                                <span>JAVA</span>
+                            <h3 style="margin-top: 20px;">Experience</h3>
+                            <div class="experience-item">
+                                <h4>Programmer Analyst</h4>
+                                <p>6 months experience in full-stack development</p>
+                                <p>Key contributions: API development, database design, feature implementation</p>
                             </div>
                         </div>
-                        <div class="skills-box">
-                            <div class="skills-header">
-                                <h3>Database</h3>
-                            </div>
-                            <div class="skills-list">
-                                <span>SQL</span>
-                                <span>PL/SQL</span>
-                                <span>PostgreSQL</span>
-                                <span>MongoDB</span>
-                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- SKILLS BOX ---------------- -->
+            <section class="section" id="skills">
+                <div class="top-header">
+                    <h1>Technical Skills</h1>
+                </div>
+                <div class="skills-container">
+                    <!-- Frontend Skills -->
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Tailwind CSS</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend Development</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>Flask</span>
+                            <span>Java</span>
+                            <span>Node.js</span>
+                            <span>RESTful APIs</span>
+                            <span>Microservices</span>
+                        </div>
+                    </div>
+
+                    <!-- Database & DevOps -->
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Database & DevOps</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>PostgreSQL</span>
+                            <span>PL/SQL</span>
+                            <span>MongoDB</span>
+                            <span>Database Design</span>
+                            <span>Git</span>
+                            <span>Docker</span>
+                            <span>Postman</span>
+                        </div>
+                    </div>
+
+                    <!-- Other Skills -->
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Other Skills</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Software Architecture</span>
+                            <span>Agile Methodologies</span>
+                            <span>Problem Solving</span>
+                            <span>Code Optimization</span>
+                            <span>Version Control (Git/GitHub)</span>
+                            <span>Technical Documentation</span>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- -------------- PROJECT BOX ---------------- -->
-
             <section class="section" id="projects">
                 <div class="top-header">
-                    <h1>Project</h1>
+                    <h1>Projects</h1>
+                    <span>Professional and academic projects demonstrating my skills</span>
                 </div>
                 <div class="project-container">
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
-                        <h3>Projects</h3>
-                        <label>VENDOR-BRIDGE: HIRING PORTAL</label>
-                        <label>CAFETERIA MANAGEMENT</label>
-                        <label>3HSCARE- OT Booking</label>
+                        <h3>VendorBridge</h3>
+                        <p>Vendor hiring portal developed with React frontend and FastAPI backend</p>
+                        <ul class="project-features">
+                            <li>Implemented secure authentication system</li>
+                            <li>Designed PostgreSQL database schema</li>
+                            <li>Developed RESTful APIs for vendor management</li>
+                        </ul>
                     </div>
                     <div class="project-box">
-                        <i class="uil uil-users-alt"></i>
-                        <h3>Education</h3>
-                        <label>MCA [ 8.13 CGPA] BCA [74.72%]</label>
+                        <i class="uil uil-medkit"></i>
+                        <h3>OTFinder</h3>
+                        <p>Hospital operation theater booking system</p>
+                        <ul class="project-features">
+                            <li>Built with Python Flask backend</li>
+                            <li>Implemented real-time scheduling features</li>
+                            <li>Optimized database queries for performance</li>
+                        </ul>
                     </div>
                     <div class="project-box">
-                        <i class="uil uil-award"></i>
-                        <h3>Achievement</h3>
-                        <label>5+ Certifications </label>
+                        <i class="uil uil-utensils"></i>
+                        <h3>NutriNest</h3>
+                        <p>Nutrition & Meal Planner</p>
+                        <ul class="project-features">
+                            <li>Full-stack development with React and FastAPI</li>
+                            <li>Implemented order tracking system</li>
+                            <li>Designed inventory management module</li>
+                        </ul>
                     </div>
                 </div>
             </section>
 
             <!-- -------------- CONTACT BOX ---------------- -->
-
-            <!-- -------------- CONTACT BOX ---------------- -->
-
-<section class="section" id="contact">
-    <div class="top-header">
-        <h1>Get in touch</h1>
-        <span>I'm thrilled to connect with fellow enthusiasts. Let's build something amazing together!</span>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="contact-info">
-                <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
-                <p><i class="uil uil-envelope"></i> Email: motagisuhas@gmail.com</p>
-                <p><i class="uil uil-phone"></i> Tel: +91 8550038763</p>
-            </div>
-        </div>
-        <div class="col">
-            <div class="form-control">
-                <div class="form-inputs">
-                    <input type="text" class="input-field" id="names" placeholder="Name" required>
-                    <input type="email" class="input-field" id="emails" placeholder="Email" required>
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>I'm open to new opportunities and collaborations</span>
                 </div>
-                <div class="text-area">
-                    <textarea id="message" placeholder="Message" required></textarea>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Contact Information <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: motagisuhas@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Phone: +91 8550038763</p>
+                            <p><i class="uil uil-map-marker"></i> Location: Karnataka, India</p>
+                            <div class="contact-social-icons">
+                                <a href="https://www.linkedin.com/in/suhas-motagi-850783228" target="_blank">
+                                    <i class="uil uil-linkedin-alt"></i>
+                                </a>
+                                <a href="https://github.com/SuhasMotagi" target="_blank">
+                                    <i class="uil uil-github-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" id="names" placeholder="Name" required>
+                                <input type="email" class="input-field" id="emails" placeholder="Email" required>
+                            </div>
+                            <div class="text-area">
+                                <textarea id="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn" type="button" onclick="sendEmail()">Send Message <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-button">
-                    <button class="btn" onclick="sendEmail()">Send <i class="uil uil-message"></i></button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
+            </section>
+        </main>
 
         <!-- --------------- FOOTER --------------- -->
         <footer>
@@ -269,6 +329,9 @@
                         <a href="#about">About</a>
                     </li>
                     <li class="footer_menu_list">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="footer_menu_list">
                         <a href="#projects">Projects</a>
                     </li>
                     <li class="footer_menu_list">
@@ -277,32 +340,21 @@
                 </ul>
             </div>
             <div class="footer-social-icons">
-                <a href="https://www.instagram.com/_.suhassss?igsh=b3g2bXVocGVwcHV5" target="_blank"
-                    rel="noopener noreferrer">
-                    <div class="icon"><i class="uil uil-instagram"></i></div>
-                </a>
-                <a href="https://www.linkedin.com/in/suhas-motagi-850783228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
-                    rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/suhas-motagi-850783228" target="_blank">
                     <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
                 </a>
-
-                <div class="icon"><i class="uil uil-dribbble"></i></div>
-
-                <a href="https://github.com/SuhasMotagi/dashboard.git" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/SuhasMotagi" target="_blank">
                     <div class="icon"><i class="uil uil-github-alt"></i></div>
+                </a>
+                <a href="https://www.instagram.com/_.suhassss" target="_blank">
+                    <div class="icon"><i class="uil uil-instagram"></i></div>
                 </a>
             </div>
             <div class="bottom-footer">
-                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Suhas Motagi</a> - All rights
-                    reserved
-                </p>
+                <p>Copyright &copy; <span id="year"></span> <a href="#home" style="text-decoration: none;">Suhas Motagi</a> - All rights reserved</p>
             </div>
         </footer>
-
     </div>
-
-
-
 
     <!-- ----- TYPING JS Link ----- -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -312,6 +364,90 @@
 
     <!-- ----- MAIN JS ----- -->
     <script src="assets/js/main.js"></script>
-</body>
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Typing animation
+        var typed = new Typed('.typedText', {
+            strings: ['Programmer Analyst', 'Software Engineer', 'Python Developer', 'Database Specialist'],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 2000
+        });
 
+        // EmailJS Function
+        function sendEmail() {
+            const name = document.getElementById('names').value;
+            const email = document.getElementById('emails').value;
+            const message = document.getElementById('message').value;
+
+            // Basic validation
+            if (!name || !email || !message) {
+                alert("Please fill in all fields before sending.");
+                return;
+            }
+
+            // Email validation
+            if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+                alert("Please enter a valid email address.");
+                return;
+            }
+
+            // Show loading state
+            const sendBtn = document.querySelector('.form-button .btn');
+            sendBtn.innerHTML = 'Sending... <i class="uil uil-spinner uil-spin"></i>';
+            sendBtn.disabled = true;
+
+            // Send email
+            emailjs.send("service_8iqcxrl", "template_4sdqlzo", {
+                from_name: name,
+                from_email: email,
+                message: message,
+            })
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+                alert("Message sent successfully! I'll get back to you soon.");
+                // Clear the form
+                document.getElementById('names').value = '';
+                document.getElementById('emails').value = '';
+                document.getElementById('message').value = '';
+            }, (error) => {
+                console.error('FAILED...', error);
+                alert("Failed to send message. Please try again later or contact me directly at motagisuhas@gmail.com");
+            })
+            .finally(() => {
+                // Reset button state
+                sendBtn.innerHTML = 'Send Message <i class="uil uil-message"></i>';
+                sendBtn.disabled = false;
+            });
+        }
+
+        // Mobile menu function
+        function myMenuFunction() {
+            var navMenu = document.getElementById('myNavMenu');
+            navMenu.classList.toggle('responsive');
+        }
+
+        // Add active-link class based on scroll position
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const scrollY = window.pageYOffset;
+
+            sections.forEach(current => {
+                const sectionHeight = current.offsetHeight;
+                const sectionTop = current.offsetTop - 100;
+                const sectionId = current.getAttribute('id');
+                const link = document.querySelector(`.nav-link[href="#${sectionId}"]`);
+
+                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                    link?.classList.add('active-link');
+                } else {
+                    link?.classList.remove('active-link');
+                }
+            });
+        });
+    </script>
+</body>
 </html>

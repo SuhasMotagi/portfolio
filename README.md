@@ -1,34 +1,64 @@
-# 💼 Suhas Motagi Portfolio
+📱 Portfolio Preview
+🖥️ Desktop View
+https://assets/images/desktop_view.png
+Professional landing page with clear navigation and highlighted expertise
 
-This is my personal portfolio website built with HTML, CSS, and JavaScript. It showcases my projects, skills, experience, and contact details.
+📱 Mobile View
+https://assets/images/Mobile_view.png
+Fully responsive design optimized for mobile devices
 
-## 🔧 Features
+📞 Contact Page
+https://assets/images/contact_page.png
+Interactive contact form with professional contact information
 
-- Responsive Design
-- Smooth Scrolling
-- Projects Section
-- Contact Form
-- Social Links
+🛠️ Technical Skills
+Frontend Development
+Angular 16+ • React 18+ • TypeScript • RxJS • HTML5/CSS3
 
-## 📸 Screenshots
+Responsive Design • PWA • State Management
 
-### 🖥️ Home Page
-![Home Screenshot](assets/images/Web_view.png)
+Backend Development
+Node.js • Express.js • NestJS • REST APIs • GraphQL
 
-### 📱 Mobile View
-![Mobile Screenshot](assets/images/Mobile_view.png)
+Microservices Architecture • API Design
 
-> Screenshots are inside the `assets/` folder.
-> Feel free to explore the live demo (if deployed).
+Database & Optimization
+PostgreSQL • MongoDB • Redis • Query Optimization
 
-## 🧑‍💻 Developed By
+Database Indexing • Performance Tuning
 
-**Suhas Motagi**
+Tools & DevOps
+Git • Docker • AWS • CI/CD • Jest • Postman
 
----
+Agile/Scrum • JIRA • Confluence
 
-### 🌐 Connect with Me
+🏆 Experience Highlights
+Programmer Analyst | 1+ Year Experience
+Built scalable web and mobile applications from scratch
 
-- [LinkedIn](https://linkedin.com/in/suhasmotagi)
-- [GitHub](https://github.com/SuhasMotagi)
+Specialized in Database Optimization achieving 40% latency reduction
 
+Developed high-performance backend systems
+
+Implemented responsive frontend interfaces
+
+Key Projects
+E-commerce Platform: Handled 10K+ concurrent users with optimized DB queries
+
+Real-time Analytics Dashboard: Reduced data processing time by 50%
+
+Mobile Banking App: Implemented secure authentication and transaction systems
+
+📬 Get In Touch
+I'm always open to discussing new opportunities, collaborations, or tech discussions!
+
+Contact Information
+📧 Email: motagisuhas@gmail.com
+
+📱 Phone: +91 8550033763
+
+🏠 Location: Karnataka, India
+
+💼 LinkedIn: linkedin.com/in/suhasmotagi
+
+💻 GitHub: github.com/SuhasMotagi

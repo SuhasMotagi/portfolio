@@ -33,7 +33,7 @@
 *Professional landing page with clear navigation and highlighted expertise*
 
 ### 📱 Mobile View
-![Mobile View](assets/images/Mobile_view1.png)
+![Mobile View](assets/images/mobile_view1.png)
 
 *Fully responsive design optimized for mobile devices*
 
@@ -100,7 +100,7 @@
 
 ## 💼 Work Experience
 
-### **Programmer Analyst** | *Navocent Technologies Pvt Ltd (formerly Aiwoox Applied AnalytiX)*
+### **Programmer Analyst**
 📅 *2025 - Present | 1+ Year Experience*
 
 ```diff

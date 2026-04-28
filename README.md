@@ -1,64 +1,107 @@
-📱 Portfolio Preview
-🖥️ Desktop View
-https://assets/images/desktop_view.png
-Professional landing page with clear navigation and highlighted expertise
+# 🚀 Suhas Motagi | Programmer Analyst
 
-📱 Mobile View
-https://assets/images/Mobile_view.png
-Fully responsive design optimized for mobile devices
+<!-- Profile Header -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Programmer+Analyst;Full-Stack+Developer;Database+Optimization+Expert;Problem+Solver" alt="Typing SVG" />
+</p>
 
-📞 Contact Page
-https://assets/images/contact_page.png
-Interactive contact form with professional contact information
+<p align="center">
+  <a href="https://suhasmotagi.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-3B82F6?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio">
+  </a>
+  <a href="mailto:motagisuhas@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://www.linkedin.com/in/suhas-motagi-850783228" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/SuhasMotagi" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://wa.me/918550038763" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  </a>
+</p>
 
-🛠️ Technical Skills
-Frontend Development
-Angular 16+ • React 18+ • TypeScript • RxJS • HTML5/CSS3
+---
 
-Responsive Design • PWA • State Management
+## 📱 Portfolio Preview
 
-Backend Development
-Node.js • Express.js • NestJS • REST APIs • GraphQL
+### 🖥️ Desktop View
+![Desktop View](assets/images/desktop_view1.png)
 
-Microservices Architecture • API Design
+*Professional landing page with clear navigation and highlighted expertise*
 
-Database & Optimization
-PostgreSQL • MongoDB • Redis • Query Optimization
+### 📱 Mobile View
+![Mobile View](assets/images/Mobile_view1.png)
 
-Database Indexing • Performance Tuning
+*Fully responsive design optimized for mobile devices*
 
-Tools & DevOps
-Git • Docker • AWS • CI/CD • Jest • Postman
+### 📞 Contact Page
+![Contact Page](assets/images/contact_page.png)
 
-Agile/Scrum • JIRA • Confluence
+*Interactive contact form with professional contact information*
 
-🏆 Experience Highlights
-Programmer Analyst | 1+ Year Experience
-Built scalable web and mobile applications from scratch
+> **Note:** Make sure the images are placed in `assets/images/` folder with exact filenames as above.
 
-Specialized in Database Optimization achieving 40% latency reduction
+---
 
-Developed high-performance backend systems
+## 🛠️ Technical Skills
 
-Implemented responsive frontend interfaces
+### Frontend Development
+<div align="left">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white" alt="RxJS">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
+</div>
 
-Key Projects
-E-commerce Platform: Handled 10K+ concurrent users with optimized DB queries
+- ✅ Responsive Design • PWA • State Management (NgRx/Redux)
 
-Real-time Analytics Dashboard: Reduced data processing time by 50%
+### Backend Development
+<div align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL">
+</div>
 
-Mobile Banking App: Implemented secure authentication and transaction systems
+- 🔧 RESTful APIs • Microservices Architecture • API Design
 
-📬 Get In Touch
-I'm always open to discussing new opportunities, collaborations, or tech discussions!
+### Database & Optimization
+<div align="left">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/PL/SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="PL/SQL">
+</div>
 
-Contact Information
-📧 Email: motagisuhas@gmail.com
+- ⚡ Query Optimization • Database Indexing • Performance Tuning • PL/SQL Procedures
 
-📱 Phone: +91 8550033763
+### Tools & DevOps
+<div align="left">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/CI/CD-4285F4?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD">
+  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest">
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
+</div>
 
-🏠 Location: Karnataka, India
+- 🔄 Agile/Scrum • JIRA • Confluence • Firebase • Supabase • Vercel
 
-💼 LinkedIn: linkedin.com/in/suhasmotagi
+---
 
-💻 GitHub: github.com/SuhasMotagi
+## 💼 Work Experience
+
+### **Programmer Analyst** | *Navocent Technologies Pvt Ltd (formerly Aiwoox Applied AnalytiX)*
+📅 *2025 - Present | 1+ Year Experience*
+
+```diff
++ Key Achievements:
